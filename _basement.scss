@@ -1,0 +1,95 @@
+.basement_conteiner {
+    margin: 0 auto;
+    margin-top: 80px;
+    max-width: 1355px;
+    background-color: $main-color;
+}
+
+.basement__row {
+    @include row;
+}
+
+.margin_40 {
+    margin-top: 28px;
+}
+
+
+.basement_content {
+    margin: 0 auto;
+    max-width: 1050px;
+}
+
+.basement__logo {
+    white-space: nowrap;
+    font-size: 20px;
+    font-family: $font-Mono;
+    font-weight: 700;
+    margin: 24px 12px;
+}
+
+.basement__weight {
+    max-width: 234px;
+}
+
+.basement__text {
+    @include fontz($font-main, 16px, 400, $text_color);
+}
+
+.margin_30 {
+    margin-top: 30px;
+}
+
+.margin_20 {
+    margin-top: 22px;
+}
+
+.basement__networks {
+    margin-top: 15px;
+    max-width: 158px;
+}
+
+.basment_fontz {
+    @include fontz($font-Mono, 20px, 700, #CCCCCC);
+}
+
+.basment_bottom_w {
+    position: relative;
+    background-color: $text_color;
+    @include fontz($font-main, 16px, 400, black);
+    padding-bottom: 19px;
+    padding-top: 19px;
+    padding-left: 20px;
+    padding-right: 50px;
+    border-radius: 20px;
+    margin-top: 40px;
+    min-width: 330px;
+}
+
+.basement__bottom_p {
+    position: absolute;
+    right: 240px;
+    background-color: $accent-color;
+    @include fontz($font-main, 16px, 700, #CCCCCC);
+    padding-bottom: 19px;
+    padding-top: 19px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.margin_right_107 {
+    margin-right: 107px;
+}
+
+.basement__line {
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 1120px;
+    border-top: 3px solid #CCCCCC;
+}
+
+.basment_last {
+    margin-top: 20px;
+    @include fontz($font-main, 12px, 400, #CCCCCC)
+}

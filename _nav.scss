@@ -1,0 +1,21 @@
+.nav__list {
+    display: flex;
+    column-gap: 30px;
+    font-size: 16px;
+    margin-top: 18px; 
+    font-family: $font-main;
+    font-weight: 700;
+}
+
+li{
+    @include bottom_nav;
+    padding: 1.9vh 2vh;
+
+}
+
+.nav_a{
+    &:hover {
+        color: black;
+        cursor: pointer;
+    }
+}

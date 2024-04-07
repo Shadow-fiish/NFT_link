@@ -1,0 +1,87 @@
+.mash__row {
+    @include row;
+}
+
+.mashrooms {
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    min-height: 704px;
+    position: relative;
+
+    max-width: 1355px;
+    background-image: url(../images/big_mushroom.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+
+    &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        
+        z-index: 2;
+        background: linear-gradient(rgba(162, 89, 255, 0) 0%, #A259FF 100%);
+    }
+}
+
+.mash__left {
+    position: absolute;
+    bottom: 0;
+    left: 150px;
+    z-index: 3;
+}
+
+.mash__right {
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+    z-index: 3;
+    margin: 60px;
+    padding: 30px;
+    background-color: rgba(59, 59, 59, 0.5);;
+    border-radius: 20px;
+}
+
+.mash__name {
+    border-radius: 20px;
+    background-color: #3b3b3b;
+    padding: 11px 20px;
+    margin-bottom: 30px;
+    max-width: 151px;
+}
+
+.mash_p {
+    @include fontz($font-main, 51px, 700, $text_color);
+    margin-bottom: 30px;
+}
+
+
+.mash__see {
+    border-radius: 20px;
+    @include bottom_nav;
+    background-color: $text_color;
+    max-width: 198px;
+    @include fontz($font-main, 16px, 700, black);
+    padding: 19px 50px;
+    margin-bottom: 60px;
+}
+
+.mash__auction {
+    @include fontz($font-Mono, 12px, 400, $text_color);
+}
+
+.mash__numbers {
+    @include fontz($font-Mono, 38px, 900, $text_color);
+}
+
+.mash_margin_right {
+    margin-right: 10px;
+}
+
+.mash__margin_left {
+    margin-left: 10px;
+}

@@ -1,0 +1,33 @@
+.p_Digital_art {
+    @include fontz($font-main, 67px, 700, $text_color);
+    margin-bottom: 20px;
+}
+
+.p_NFT_marketplace {
+    @include fontz($font-main, 22px, 400, $text_color);
+    margin-bottom: 50px;
+}
+
+.art_bottom {
+    @include bottom; 
+}
+
+.art__row {
+    @include row;
+}
+
+.numbers{
+    margin-top: 40px;
+}
+
+.art__numbers {
+    @include fontz($font-Mono, 28px, 900, $text_color);
+}
+
+.art__text {
+    @include fontz($font-main, 24px, 400, $text_color);
+}
+
+.art__img {
+    width: 550px;
+}

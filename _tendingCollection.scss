@@ -1,0 +1,28 @@
+.tc__row {
+    @include row;
+}
+
+
+.tc__margin {
+    margin-top: 15px;
+}
+
+.box {
+    @include bottom;
+    padding: 32.5px 16px;
+    @include fontz ($font-Mono, 22px, 900, $text_color)
+}
+
+.tc__name {
+    @include fontz($font-main, 22px, 700, $text_color)
+}
+
+.tc__nick_row{
+    @include row;
+    justify-content: left;
+}
+
+.tc_nick {
+    margin-left: 12px;
+    @include fontz ($font-main, 16px, 400, $text_color)
+}

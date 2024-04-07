@@ -1,0 +1,31 @@
+.how__row {
+    @include row;
+}
+
+.how__margin {
+    margin-top: 48px;
+}
+
+.how__block {
+    background-color: $main-color;
+    border-radius: 20px;
+    padding: 1vw 1.5vw 1vw 1.5vw;
+}
+
+.how__center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+}
+
+.how__text_center {
+    text-align: center;
+    @include fontz ($font-main, 22px, 700, $text_color);
+    margin-bottom: 10px;
+}
+
+.how__text {
+    text-align: center;
+    @include fontz ($font-main, 16px, 400, $text_color);
+}

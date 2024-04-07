@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    min-height: 54px;
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1295px;  
+    min-width: 850px; 
+    @include row;
+}
+
+.header__row {
+    @include row;
+}
+
+
+.header__p {
+    white-space: nowrap;
+    font-size: 20px;
+    font-family: $font-Mono;
+    font-weight: 700;
+    margin: 24px 12px;
+}

@@ -1,0 +1,29 @@
+.discover__row {
+    @include row;
+}
+
+.discover__conteiner {
+    position: relative;
+}
+
+.discover__bottom {
+    border: 2px solid $accent-color;
+    border-radius: 20px;
+    padding: 1.9vh 4vh;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.discover__VR {
+    white-space: nowrap;
+    @include fontz($font-main, 16px, 700, $text_color);
+}
+
+.discover__a {
+    margin-left: 12px;
+    &:hover {
+        color: $accent-color;
+        cursor: pointer;
+    }
+}

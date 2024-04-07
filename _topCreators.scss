@@ -1,0 +1,34 @@
+.top__row {
+    @include row;
+    
+}
+.top__conteiner {
+    position: relative;
+}
+
+.top__VR {
+    white-space: nowrap;
+    @include fontz($font-main, 16px, 700, $text_color);
+}
+
+.top__bottom {
+    border: 2px solid $accent-color;
+    border-radius: 20px;
+    padding: 1.9vh 4vh;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.top__a {
+    margin-left: 12px;
+    &:hover {
+        color: $accent-color;
+        cursor: pointer;
+    }
+}
+
+.top_paint_margin {
+    margin-top: 30px;
+}
+
